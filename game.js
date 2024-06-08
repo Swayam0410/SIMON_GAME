@@ -16,6 +16,15 @@ var level=0;
 
     });
 
+      $("body").click(function()
+{
+    if(gamePattern.length===0)
+        {
+
+             swayam();
+        }
+});
+
 var index=0;
 function playsound(randomChosenColour)
 {
